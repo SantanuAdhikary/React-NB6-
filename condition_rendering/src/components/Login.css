@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.outer{
+    height: 100vh;
+    background-color: #f3eff5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer > .inner{
+    width: 350px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form-group > label{
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.form-group > input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    
+}
+
+.form-group{
+    margin-bottom: 15px;
+}
+
+.form-group>button{
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    background-color: #0866ff;
+    color:white;
+}
+
+.form-group>button:hover{
+    background-color: #084fc0;
+}
+
+form>p{
+    font-size: 20px;
+    color:  #4a8bf5;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+form .btn{
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #42b72a;
+    color:white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+   
+}
+
+.buttons{
+    text-align: center;
+}
