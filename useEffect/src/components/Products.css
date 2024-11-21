@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    height: 60px;
+    background-color: black;
+}
+
+main{
+    
+    background-color: antiquewhite;
+    /* display: flex; */
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    justify-content: center;
+ 
+}
+
+footer{
+    height: 60px;
+    background-color: black;
+}
+
+main > .card{
+    height: 250px;
+    width: 300px;
+    border: 2px solid red;
+}
+
+.card > img{
+    height: 150px;
+    width: 200px;
+}
+
+#search {
+   
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
